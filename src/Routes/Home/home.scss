@@ -1,0 +1,90 @@
+@import '../../app.scss';
+
+$font-size-standard: 1em;
+
+%font-page-title {
+	font-family: $font-roboto;
+	font-size: 7 * $font-size-standard;
+}
+
+%font-page-subtitle {
+	font-family: $font-roboto;
+	font-size: 1.5 * $font-size-standard;
+}
+
+%button-social-net {
+	width: 10%;
+	padding: 8px 10px;
+	margin: 0 1.5em;
+	border-radius: 5px;
+	color: $color-sidebar-font;
+	font-family: $font-roboto;
+	font-size: $font-size-standard * 1.5;
+	box-shadow: 1px 2px 2px 1px #000;
+	text-align: center;
+	cursor: pointer;
+
+	// i {
+	// 	margin-right: 15px;
+	// }
+
+	&:active {
+		position: relative;
+		top: 2px;
+	}
+}
+
+.view-home {
+	width: $size-router-width;
+	margin-left: $size-sidebar-width;
+	height: 100vh;
+	background: url('../../assets/images/crowd_2_effect.png');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	.page-title {
+		@extend %font-page-title;
+		font-weight: bold;
+		color: $color-sidebar-background;
+	}
+
+	.page-subtitle {
+		@extend %font-page-subtitle;
+	}
+
+	.title-buttons {
+		width: 100%;
+		margin-top: 20px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.button-facebook {
+			@extend %button-social-net;
+			background: $color-facebook-blue;
+		}
+
+		.button-twitter {
+			@extend %button-social-net;
+			background: $color-twitter-blue;
+		}
+
+		.button-google {
+			@extend %button-social-net;
+			background: $color-google-red;
+		}
+	}
+
+	.intro-text {
+		width: 65%;
+		font-family: $font-roboto;
+		margin: 10px;
+		font-size: 1.2em;
+		// color: $color-sidebar-font;
+		text-align: center;
+	}
+}

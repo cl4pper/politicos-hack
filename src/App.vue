@@ -1,6 +1,7 @@
 <template>
-    <div id="app">
+    <div class="app">
         <v-sidebar title="Políticos"></v-sidebar>
+        <router-view></router-view>
     </div>
 </template>
 
@@ -8,11 +9,6 @@
 import Sidebar from './components/Sidebar/Sidebar';
 export default {
     name: 'app',
-    data () {
-        return {
-            msg: 'Welcome to Your Vue.js App'
-        }
-    },
     components: {
         vSidebar: Sidebar,
     }

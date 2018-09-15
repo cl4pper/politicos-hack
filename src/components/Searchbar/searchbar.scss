@@ -1,0 +1,11 @@
+@import '../../assets/colors.scss';
+@import '../../assets/fonts.scss';
+@import '../../assets/sizes.scss';
+
+.searchbar {
+	width: 100%;
+	min-height: 70px;
+	background: $color-sidebar-background;
+	border-radius: 8px;
+	box-shadow: 1px 5px 5px 1px #000;
+}

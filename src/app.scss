@@ -1,4 +1,15 @@
+@import 'assets/colors.scss';
+@import 'assets/fonts.scss';
+@import 'assets/sizes.scss';
+
 * {
 	margin: 0 auto;
 	padding: 0 auto;
+}
+
+.app {
+
+	router-view {
+		margin-left: 20%;
+	}
 }

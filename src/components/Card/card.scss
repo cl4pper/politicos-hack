@@ -1,0 +1,11 @@
+@import '../../assets/colors.scss';
+@import '../../assets/fonts.scss';
+@import '../../assets/sizes.scss';
+
+.card {
+	width: 20%;
+	height: 100px;
+	border: 1px solid #000;
+	border-radius: 8px;
+	margin: 10px;
+}

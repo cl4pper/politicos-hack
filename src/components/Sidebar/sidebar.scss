@@ -1,12 +1,13 @@
 @import '../../assets/colors.scss';
 @import '../../assets/fonts.scss';
+@import '../../assets/sizes.scss';
 
 $font-sidebar-item: 1em;
 
 .sidebar {
 
 	.sidebar-desktop {
-		width: 20%;
+		width: $size-sidebar-width;
 		height: 100%;
 		background: $color-sidebar-background;
 		color: $color-sidebar-font;
@@ -19,7 +20,8 @@ $font-sidebar-item: 1em;
 
 		.sidebar-header {
 			font-size: 2.5em;
-			font-family: $font-noto;
+			font-family: $font-roboto;
+			font-weight: bold;
 		}
 
 		.sidemenu-content {
