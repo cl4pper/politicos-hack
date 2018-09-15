@@ -1,6 +1,6 @@
 <template>
     <div id="app">
-        <v-sidebar></v-sidebar>
+        <v-sidebar title="Políticos"></v-sidebar>
     </div>
 </template>
 

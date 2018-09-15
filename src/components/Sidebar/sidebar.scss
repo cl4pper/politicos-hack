@@ -19,6 +19,7 @@ $font-sidebar-item: 1em;
 
 		.sidebar-header {
 			font-size: 2.5em;
+			font-family: $font-noto;
 		}
 
 		.sidemenu-content {
@@ -83,6 +84,7 @@ $font-sidebar-item: 1em;
 				}
 
 				.title {
+					font-family: $font-noto;
 					text-align: right;
 					font-size: 3 * $font-sidebar-item;
 				}
