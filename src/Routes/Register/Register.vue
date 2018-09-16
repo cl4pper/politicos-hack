@@ -64,6 +64,11 @@
 
 				</div>
 			</div>
+
+			<div class="input-group-check">
+				<div class="label">Marque se foi citado em algum processo judicial</div>
+				<input type="checkbox" v-model="politico.processo">
+			</div>
 		</div>
 
 		<!-- BOTAO DE SUBMISSAO -->
@@ -93,6 +98,8 @@ export default {
 				infra: 0,
 				cultura: 0,
 				ambiente: 0,
+				processo: false,
+				total: 0,
 			}
 		}
 	},
@@ -104,6 +111,7 @@ export default {
 			alert(this.politicos);
 		},
 		sendPolitico: function() {
+			this.politico.total = Number(this.politico.tecnologia) + Number(this.politico.educacao) + Number(this.politico.saude) + Number(this.politico.seguranca) + Number(this.politico.economia) + Number(this.politico.industria) + Number(this.politico.infra)+ Number(this.politico.cultura) + Number(this.politico.ambiente);
 			politicos.push(this.politico);
 			this.politico = {
 				nome: "",
@@ -116,6 +124,8 @@ export default {
 				infra: 0,
 				cultura: 0,
 				ambiente: 0,
+				processo: false,
+				total: 0,
 			}
 		}
 	}

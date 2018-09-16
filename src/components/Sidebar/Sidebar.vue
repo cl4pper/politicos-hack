@@ -6,7 +6,7 @@
 			<div class="sidebar-header">{{ title }}</div>
 			<div class="sidemenu-content">
 				<a href="/" class="item"><i class="fas fa-home"></i>Início</a>
-				<a href="/busca" class="item"><i class="fas fa-search"></i> Busca</a>
+				<a href="/lista" class="item"><i class="fas fa-search"></i> Lista</a>
 				<a href="/registro" class="item"><i class="fas fa-users"></i>Cadastro</a>
 			</div>
 		</div>

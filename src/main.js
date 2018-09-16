@@ -16,7 +16,7 @@ Vue.use(VueFire);
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/busca', component: Search },
+  { path: '/lista', component: Search },
   { path: '/registro', component: Register },
 ];
 

@@ -33,6 +33,7 @@ $font-size-toptext: 1em;
 		flex-direction: column;
 
 		.input-group {
+			margin: 15px 0;
 			width: 100%;
 			display: flex;
 			align-items: center;
@@ -68,6 +69,15 @@ $font-size-toptext: 1em;
 						@extend %input-data;
 					}
 				}
+			}
+		}
+
+		.input-group-check {
+			display: flex;
+			align-items: center;
+
+			input {
+				margin-left: 10px;
 			}
 		}
 	}
