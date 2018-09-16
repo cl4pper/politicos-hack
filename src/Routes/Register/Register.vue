@@ -69,6 +69,7 @@
 		<!-- BOTAO DE SUBMISSAO -->
 		<div class="submit-register">
 			<div class="button" @click="sendPolitico()">
+			<!-- <div class="button" @click="showAlert()"> -->
 				<div class="label">Registrar</div>
 			</div>
 		</div>
@@ -96,11 +97,11 @@ export default {
 		}
 	},
 	firebase: {
-		politicos: politicos,
+		regPoliticos: politicos,
 	},
 	methods: {
 		showAlert: function() {
-			alert(this.politico.tecnologia)
+			alert(this.politicos);
 		},
 		sendPolitico: function() {
 			politicos.push(this.politico);
