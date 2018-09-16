@@ -5,9 +5,9 @@
 		<div class="sidebar-desktop">
 			<div class="sidebar-header">{{ title }}</div>
 			<div class="sidemenu-content">
-				<div class="item"><i class="fas fa-home"></i>Início</div>
-				<div class="item"><i class="fas fa-search"></i>Busca</div>
-				<div class="item"><i class="fas fa-users"></i>Perfil</div>
+				<a href="/" class="item"><i class="fas fa-home"></i>Início</a>
+				<a href="/busca" class="item"><i class="fas fa-search"></i> Busca</a>
+				<a href="/registro" class="item"><i class="fas fa-users"></i>Cadastro</a>
 			</div>
 		</div>
 
@@ -30,7 +30,7 @@ export default {
 			default: "Titulo",
 			required: false,
 		}
-	}
+	},
 }
 </script>
 

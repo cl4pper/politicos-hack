@@ -38,6 +38,8 @@ $font-sidebar-item: 1em;
 				margin: 20px 0;
 				border-radius: 5px;
 				cursor: pointer;
+				color: $color-sidebar-font;
+				text-decoration: unset;
 			
 				i {
 					margin-right: 15px;
