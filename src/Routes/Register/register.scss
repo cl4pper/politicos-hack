@@ -71,4 +71,29 @@ $font-size-toptext: 1em;
 			}
 		}
 	}
+
+	.submit-register {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.button {
+			width: 15%;
+			padding: 10px 15px;
+			border-radius: 8px;
+			font-size: $font-size-toptext * 1.2;
+			background: $color-sidebar-background;
+			color: $color-sidebar-font;
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			&:active {
+				position: relative;
+				top: 2px;
+			}
+		}
+	}
 }
