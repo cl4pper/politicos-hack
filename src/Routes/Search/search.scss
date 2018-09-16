@@ -63,10 +63,12 @@ $size-circle-default: 15px;
 
 					.card-element {
 						width: 100%;
+						cursor: pointer;
 
 						.card {
 							width: 100%;
-							border: 1px solid #000;
+							// border: 1px solid #000;
+							box-shadow: 2px 2px #ccc;
 							border-radius: 8px;
 							margin: 10px 0;
 							// background: red;
@@ -75,7 +77,8 @@ $size-circle-default: 15px;
 
 							.card-info {
 								width: 100%;
-								border-bottom: 1px solid #000;
+								// border-bottom: 1px solid #000;
+								border-bottom: 1px solid #ccc;
 								display: flex;
 								align-items: center;
 
@@ -125,6 +128,15 @@ $size-circle-default: 15px;
 									color: blue;
 								}
 							}
+
+							&:hover {
+								border: 2px solid #FFB900;
+							}
+						}
+
+						&:hover {
+							position: relative;
+							bottom: 2px;
 						}
 					}
 				}

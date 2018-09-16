@@ -9,7 +9,8 @@
 		</div> -->
 
 		<div class="intro-text">
-			Nosso objetivo é mostrar ao eleitor o quadro dos políticos brasileiros através dos projetos registrados pelos mesmos ao logo de suas carreiras.
+			<!-- Nosso objetivo é mostrar ao eleitor o quadro dos políticos brasileiros através dos projetos registrados pelos mesmos ao logo de suas carreiras. -->
+			Mostrando o político do jeito que ele é...
 		</div>
 
 		<div class="title-buttons">
