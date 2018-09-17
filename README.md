@@ -10,6 +10,12 @@ The basis of the analysis is comparing the total number of public projects advoc
 
 Techs used: Vue.js, Firebase
 
+
+![Politicos Home](https://ibb.co/eeVpbe)
+
+
+![Example of Candidates List](https://ibb.co/ei8LhK)
+
 ## Build Setup
 
 ``` bash
