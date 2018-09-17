@@ -1,6 +1,11 @@
-# politicos-hack
+# Políticos
 
-> UNIFACS 2nd hackathon project
+> Project build on 2nd UNIFACS Hackathon.
+
+The objective of this project is to help the user to choose candidates for public office, relating their preferences to advocated guidelines.
+
+
+The basis of the analysis is comparing the total number of public projects advocated(by the candidate) by the total of projects types(eg. Education, Economy, Health, etc.).
 
 ## Build Setup
 
