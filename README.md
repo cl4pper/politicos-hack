@@ -8,9 +8,7 @@ The objective of this project is to help the user to choose candidates for publi
 The basis of the analysis is comparing the total number of public projects advocated(by the candidate) by the total of projects types(eg. Education, Economy, Health, etc.).
 
 
-Techs used:
-a. Vue.js
-b. Firebase
+Techs used: Vue.js, Firebase
 
 ## Build Setup
 
